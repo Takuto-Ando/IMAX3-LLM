@@ -1,0 +1,1 @@
+/bin/c++ -O3 -DNDEBUG "CMakeFiles/llama-server.dir/server.cpp.o" -o ../../bin/llama-server  -Wl,-rpath,/home/ando/proj-arm64/sample/llama.cpp_202510/bin: ../../common/libcommon.a ../../bin/libmtmd.so ../../bin/libllama.so ../../bin/libggml.so ../../bin/libggml-cpu.so ../../bin/libggml-base.so 

@@ -1,0 +1,847 @@
+[
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/cc -DGGML_BUILD -DGGML_COMMIT=\\\"41aac5c6\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -std=gnu11 -o CMakeFiles/ggml-base.dir/ggml.c.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml.c",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml.c"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"41aac5c6\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -std=gnu++17 -o CMakeFiles/ggml-base.dir/ggml.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/cc -DGGML_BUILD -DGGML_COMMIT=\\\"41aac5c6\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -std=gnu11 -o CMakeFiles/ggml-base.dir/ggml-alloc.c.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-alloc.c",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-alloc.c"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"41aac5c6\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -std=gnu++17 -o CMakeFiles/ggml-base.dir/ggml-backend.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-backend.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-backend.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"41aac5c6\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -std=gnu++17 -o CMakeFiles/ggml-base.dir/ggml-opt.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-opt.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-opt.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"41aac5c6\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -std=gnu++17 -o CMakeFiles/ggml-base.dir/ggml-threading.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-threading.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-threading.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/cc -DGGML_BUILD -DGGML_COMMIT=\\\"41aac5c6\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -std=gnu11 -o CMakeFiles/ggml-base.dir/ggml-quants.c.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-quants.c",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-quants.c"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"41aac5c6\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -std=gnu++17 -o CMakeFiles/ggml-base.dir/gguf.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/gguf.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/gguf.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/cc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/.. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -mcpu=cortex-a72+crypto+nodotprod+noi8mm+nosve -fopenmp -std=gnu11 -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/ggml-cpu.c",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/ggml-cpu.c"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/.. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -mcpu=cortex-a72+crypto+nodotprod+noi8mm+nosve -fopenmp -std=gnu++17 -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/ggml-cpu.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/ggml-cpu.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/.. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -mcpu=cortex-a72+crypto+nodotprod+noi8mm+nosve -fopenmp -std=gnu++17 -o CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/repack.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/repack.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/.. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -mcpu=cortex-a72+crypto+nodotprod+noi8mm+nosve -fopenmp -std=gnu++17 -o CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/hbm.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/hbm.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/cc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/.. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -mcpu=cortex-a72+crypto+nodotprod+noi8mm+nosve -fopenmp -std=gnu11 -o CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/quants.c",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/quants.c"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/.. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -mcpu=cortex-a72+crypto+nodotprod+noi8mm+nosve -fopenmp -std=gnu++17 -o CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/traits.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/traits.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/.. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -mcpu=cortex-a72+crypto+nodotprod+noi8mm+nosve -fopenmp -std=gnu++17 -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/amx/amx.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/amx/amx.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/.. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -mcpu=cortex-a72+crypto+nodotprod+noi8mm+nosve -fopenmp -std=gnu++17 -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/amx/mmq.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/amx/mmq.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/.. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -mcpu=cortex-a72+crypto+nodotprod+noi8mm+nosve -fopenmp -std=gnu++17 -o CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/binary-ops.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/binary-ops.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/.. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -mcpu=cortex-a72+crypto+nodotprod+noi8mm+nosve -fopenmp -std=gnu++17 -o CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/unary-ops.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/unary-ops.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/.. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -mcpu=cortex-a72+crypto+nodotprod+noi8mm+nosve -fopenmp -std=gnu++17 -o CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/vec.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/vec.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/.. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -mcpu=cortex-a72+crypto+nodotprod+noi8mm+nosve -fopenmp -std=gnu++17 -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/ops.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/ops.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/.. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -mcpu=cortex-a72+crypto+nodotprod+noi8mm+nosve -fopenmp -std=gnu++17 -o CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/llamafile/sgemm.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/llamafile/sgemm.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/cc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/.. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -mcpu=cortex-a72+crypto+nodotprod+noi8mm+nosve -fopenmp -std=gnu11 -o CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/arm/quants.c.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/arch/arm/quants.c",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/arch/arm/quants.c"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/.. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -mcpu=cortex-a72+crypto+nodotprod+noi8mm+nosve -fopenmp -std=gnu++17 -o CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/arm/repack.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/arch/arm/repack.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-cpu/arch/arm/repack.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -std=gnu++17 -o CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-backend-reg.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/ggml-backend-reg.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-adapter.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-adapter.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-adapter.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-arch.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-arch.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-arch.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-batch.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-batch.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-batch.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-chat.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-chat.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-chat.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-context.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-context.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-context.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-cparams.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-cparams.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-cparams.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-grammar.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-grammar.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-grammar.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-graph.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-graph.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-graph.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-hparams.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-hparams.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-hparams.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-impl.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-impl.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-impl.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-io.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-io.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-io.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-kv-cache.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-kv-cache.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-kv-cache.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-kv-cache-iswa.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-kv-cache-iswa.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-kv-cache-iswa.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-memory.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-memory.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-memory.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-memory-hybrid.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-memory-hybrid.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-memory-hybrid.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-memory-recurrent.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-memory-recurrent.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-memory-recurrent.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-mmap.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-mmap.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-mmap.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-model-loader.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-model-loader.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-model-loader.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-model-saver.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-model-saver.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-model-saver.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-quant.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-quant.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-quant.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-sampling.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-sampling.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-sampling.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-vocab.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-vocab.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/llama-vocab.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/unicode-data.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/unicode-data.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/unicode-data.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/src",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/unicode.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/src/unicode.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/src/unicode.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/common",
+  "command": "/bin/c++   -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/build_info.dir/build-info.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/common/build-info.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/common/build-info.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/common",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/arg.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/common/arg.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/common/arg.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/common",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/chat-parser.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/common/chat-parser.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/common/chat-parser.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/common",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/chat.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/common/chat.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/common/chat.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/common",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/common.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/common/common.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/common/common.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/common",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/console.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/common/console.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/common/console.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/common",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/json-partial.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/common/json-partial.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/common/json-partial.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/common",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/json-schema-to-grammar.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/common/json-schema-to-grammar.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/common/json-schema-to-grammar.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/common",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/llguidance.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/common/llguidance.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/common/llguidance.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/common",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/log.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/common/log.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/common/log.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/common",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/ngram-cache.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/common/ngram-cache.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/common/ngram-cache.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/common",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/regex-partial.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/common/regex-partial.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/common/regex-partial.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/common",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/sampling.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/common/sampling.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/common/sampling.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/common",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/speculative.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/common/speculative.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/common/speculative.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-tokenizer-0.dir/test-tokenizer-0.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-tokenizer-0.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-tokenizer-0.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-sampling.dir/test-sampling.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-sampling.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-sampling.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-sampling.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-grammar-parser.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-grammar-parser.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-grammar-parser.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-grammar-integration.dir/test-grammar-integration.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-grammar-integration.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-grammar-integration.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-grammar-integration.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-llama-grammar.dir/test-llama-grammar.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-llama-grammar.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-llama-grammar.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-llama-grammar.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-chat.dir/test-chat.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-chat.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-chat.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-chat.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/tools/server -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-json-schema-to-grammar.dir/test-json-schema-to-grammar.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-json-schema-to-grammar.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-json-schema-to-grammar.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/tools/server -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-json-schema-to-grammar.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-quantize-stats.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-quantize-stats.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-gbnf-validator.dir/test-gbnf-validator.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-gbnf-validator.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-gbnf-validator.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-tokenizer-1-bpe.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-tokenizer-1-bpe.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-tokenizer-1-spm.dir/test-tokenizer-1-spm.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-tokenizer-1-spm.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-tokenizer-1-spm.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-chat-parser.dir/test-chat-parser.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-chat-parser.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-chat-parser.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-chat-parser.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-chat-template.dir/test-chat-template.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-chat-template.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-chat-template.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-chat-template.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-json-partial.dir/test-json-partial.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-json-partial.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-json-partial.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-json-partial.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-log.dir/test-log.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-log.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-log.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-log.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-regex-partial.dir/test-regex-partial.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-regex-partial.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-regex-partial.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-regex-partial.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-thread-safety.dir/test-thread-safety.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-thread-safety.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-thread-safety.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-thread-safety.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-arg-parser.dir/test-arg-parser.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-arg-parser.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-arg-parser.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-arg-parser.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-opt.dir/test-opt.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-opt.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-opt.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-opt.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-gguf.dir/test-gguf.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-gguf.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-gguf.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-gguf.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-backend-ops.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-backend-ops.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-backend-ops.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-model-load-cancel.dir/test-model-load-cancel.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-model-load-cancel.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-model-load-cancel.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-model-load-cancel.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-autorelease.dir/test-autorelease.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-autorelease.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-autorelease.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-autorelease.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-barrier.dir/test-barrier.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-barrier.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-barrier.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-barrier.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-quantize-fns.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-quantize-fns.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-quantize-fns.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-quantize-perf.dir/test-quantize-perf.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-quantize-perf.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-quantize-perf.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-quantize-perf.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-rope.dir/test-rope.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-rope.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-rope.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-rope.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/cc -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/. -O3 -DNDEBUG -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-mtmd-c-api.c",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-mtmd-c-api.c"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/. -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/cc -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles/test-c.dir/test-c.c.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-c.c",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-c.c"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-alloc.dir/test-alloc.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-alloc.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/test-alloc.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-alloc.dir/get-model.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tests/get-model.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/batched",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-batched.dir/batched.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/batched/batched.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/batched/batched.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/embedding",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-embedding.dir/embedding.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/embedding/embedding.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/embedding/embedding.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/eval-callback",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/eval-callback/eval-callback.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/eval-callback/eval-callback.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/gguf-hash",
+  "command": "/bin/cc  -I/home/ando/proj-arm64/sample/llama.cpp_202510/examples/gguf-hash/deps -O3 -DNDEBUG -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/gguf-hash/deps/xxhash/xxhash.c",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/gguf-hash/deps/xxhash/xxhash.c"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/gguf-hash",
+  "command": "/bin/cc  -I/home/ando/proj-arm64/sample/llama.cpp_202510/examples/gguf-hash/deps -O3 -DNDEBUG -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -w -o CMakeFiles/sha1.dir/deps/sha1/sha1.c.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/gguf-hash/deps/sha1/sha1.c",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/gguf-hash/deps/sha1/sha1.c"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/gguf-hash",
+  "command": "/bin/cc  -I/home/ando/proj-arm64/sample/llama.cpp_202510/examples/gguf-hash/deps -O3 -DNDEBUG -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles/sha256.dir/deps/sha256/sha256.c.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/gguf-hash/deps/sha256/sha256.c",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/gguf-hash/deps/sha256/sha256.c"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/gguf-hash",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -I/home/ando/proj-arm64/sample/llama.cpp_202510/examples/gguf-hash/deps -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/gguf-hash/gguf-hash.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/gguf-hash/gguf-hash.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/gguf",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-gguf.dir/gguf.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/gguf/gguf.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/gguf/gguf.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/lookahead",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-lookahead.dir/lookahead.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/lookahead/lookahead.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/lookahead/lookahead.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/lookup",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-lookup.dir/lookup.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/lookup/lookup.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/lookup/lookup.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/lookup",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/lookup/lookup-create.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/lookup/lookup-create.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/lookup",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/lookup/lookup-merge.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/lookup/lookup-merge.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/lookup",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-lookup-stats.dir/lookup-stats.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/lookup/lookup-stats.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/lookup/lookup-stats.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/parallel",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-parallel.dir/parallel.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/parallel/parallel.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/parallel/parallel.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/passkey",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-passkey.dir/passkey.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/passkey/passkey.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/passkey/passkey.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/retrieval",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-retrieval.dir/retrieval.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/retrieval/retrieval.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/retrieval/retrieval.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/save-load-state",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/save-load-state/save-load-state.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/save-load-state/save-load-state.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/simple",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-simple.dir/simple.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/simple/simple.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/simple/simple.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/simple-chat",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/simple-chat/simple-chat.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/simple-chat/simple-chat.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/speculative",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-speculative.dir/speculative.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/speculative/speculative.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/speculative/speculative.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/speculative-simple",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-speculative-simple.dir/speculative-simple.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/speculative-simple/speculative-simple.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/speculative-simple/speculative-simple.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/gen-docs",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/gen-docs/gen-docs.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/gen-docs/gen-docs.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/training",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-finetune.dir/finetune.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/training/finetune.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/training/finetune.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/diffusion",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-diffusion-cli.dir/diffusion-cli.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/diffusion/diffusion-cli.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/diffusion/diffusion-cli.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/model-conversion",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-logits.dir/logits.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/model-conversion/logits.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/model-conversion/logits.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/convert-llama2c-to-ggml",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/examples/convert-llama2c-to-ggml/convert-llama2c-to-ggml.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/examples/convert-llama2c-to-ggml/convert-llama2c-to-ggml.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/pocs/vdot",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/pocs -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -o CMakeFiles/llama-vdot.dir/vdot.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/pocs/vdot/vdot.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/pocs/vdot/vdot.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/pocs/vdot",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/pocs -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -o CMakeFiles/llama-q8dot.dir/q8dot.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/pocs/vdot/q8dot.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/pocs/vdot/q8dot.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/batched-bench",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/batched-bench/batched-bench.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/batched-bench/batched-bench.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/gguf-split",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/gguf-split/gguf-split.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/gguf-split/gguf-split.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/imatrix",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-imatrix.dir/imatrix.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/imatrix/imatrix.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/imatrix/imatrix.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/llama-bench",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-bench.dir/llama-bench.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/llama-bench/llama-bench.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/llama-bench/llama-bench.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/main",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-cli.dir/main.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/main/main.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/main/main.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/perplexity",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-perplexity.dir/perplexity.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/perplexity/perplexity.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/perplexity/perplexity.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/quantize",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/tools/quantize/../../common -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-quantize.dir/quantize.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/quantize/quantize.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/quantize/quantize.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/server",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/tools/server -I/home/ando/proj-arm64/sample/llama.cpp_202510/tools/server/../mtmd -I/home/ando/proj-arm64/sample/llama.cpp_202510 -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/. -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-server.dir/server.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/server/server.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/server/server.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/run",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-run.dir/run.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/run/run.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/run/run.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/run",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/run/linenoise.cpp/linenoise.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/run/linenoise.cpp/linenoise.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/tokenize",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-tokenize.dir/tokenize.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/tokenize/tokenize.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/tokenize/tokenize.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/tts",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-tts.dir/tts.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/tts/tts.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/tts/tts.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dmtmd_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/../.. -I/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/../../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -Wno-cast-qual -o CMakeFiles/mtmd.dir/mtmd.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/mtmd.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/mtmd.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dmtmd_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/../.. -I/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/../../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -Wno-cast-qual -o CMakeFiles/mtmd.dir/mtmd-audio.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/mtmd-audio.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/mtmd-audio.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dmtmd_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/../.. -I/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/../../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -Wno-cast-qual -o CMakeFiles/mtmd.dir/clip.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/clip.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/clip.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dmtmd_EXPORTS -I/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/../.. -I/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/../../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -Wno-cast-qual -o CMakeFiles/mtmd.dir/mtmd-helper.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/mtmd-helper.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/mtmd-helper.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd",
+  "command": "/bin/c++   -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-llava-cli.dir/deprecation-warning.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/deprecation-warning.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/deprecation-warning.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd",
+  "command": "/bin/c++   -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-gemma3-cli.dir/deprecation-warning.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/deprecation-warning.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/deprecation-warning.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd",
+  "command": "/bin/c++   -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-minicpmv-cli.dir/deprecation-warning.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/deprecation-warning.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/deprecation-warning.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd",
+  "command": "/bin/c++   -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/deprecation-warning.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/deprecation-warning.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/. -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/mtmd-cli.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/mtmd/mtmd-cli.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/cvector-generator",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/cvector-generator/cvector-generator.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/cvector-generator/cvector-generator.cpp"
+},
+{
+  "directory": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/export-lora",
+  "command": "/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/. -I/home/ando/proj-arm64/sample/llama.cpp_202510/common/../vendor -I/home/ando/proj-arm64/sample/llama.cpp_202510/src/../include -I/home/ando/proj-arm64/sample/llama.cpp_202510/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-export-lora.dir/export-lora.cpp.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/tools/export-lora/export-lora.cpp",
+  "file": "/home/ando/proj-arm64/sample/llama.cpp_202510/tools/export-lora/export-lora.cpp"
+}
+]

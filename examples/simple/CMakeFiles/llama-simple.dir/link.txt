@@ -1,0 +1,1 @@
+/bin/c++ -O3 -DNDEBUG "CMakeFiles/llama-simple.dir/simple.cpp.o" -o ../../bin/llama-simple  -Wl,-rpath,/home/ando/proj-arm64/sample/llama.cpp_202510/bin: ../../bin/libllama.so ../../bin/libggml.so ../../bin/libggml-cpu.so ../../bin/libggml-base.so 

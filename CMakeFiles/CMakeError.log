@@ -1,0 +1,128 @@
+Performing C++ SOURCE FILE Test GGML_COMPILER_SUPPORTS_FP16_FORMAT_I3E failed with the following output:
+Change Dir: /home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-t6iFyT
+
+Run Build Command(s):/bin/gmake -f Makefile cmTC_95305/fast && /bin/gmake  -f CMakeFiles/cmTC_95305.dir/build.make CMakeFiles/cmTC_95305.dir/build
+gmake[1]: Entering directory '/home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-t6iFyT'
+Building CXX object CMakeFiles/cmTC_95305.dir/src.cxx.o
+/bin/c++ -DGGML_COMPILER_SUPPORTS_FP16_FORMAT_I3E  -mfp16-format=ieee -std=gnu++17 -o CMakeFiles/cmTC_95305.dir/src.cxx.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-t6iFyT/src.cxx
+c++: error: unrecognized command-line option '-mfp16-format=ieee'
+gmake[1]: *** [CMakeFiles/cmTC_95305.dir/build.make:78: CMakeFiles/cmTC_95305.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-t6iFyT'
+gmake: *** [Makefile:127: cmTC_95305/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test GGML_MACHINE_SUPPORTS_dotprod failed with the following compile output:
+Change Dir: /home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-5lcVNs
+
+Run Build Command(s):/bin/gmake -f Makefile cmTC_999ea/fast && /bin/gmake  -f CMakeFiles/cmTC_999ea.dir/build.make CMakeFiles/cmTC_999ea.dir/build
+gmake[1]: Entering directory '/home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-5lcVNs'
+Building CXX object CMakeFiles/cmTC_999ea.dir/src.cxx.o
+/bin/c++ -DGGML_MACHINE_SUPPORTS_dotprod  -mcpu=cortex-a72+crypto+dotprod -std=gnu++17 -o CMakeFiles/cmTC_999ea.dir/src.cxx.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-5lcVNs/src.cxx
+In file included from /home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-5lcVNs/src.cxx:1:
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h: In function 'int main()':
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29527:1: error: inlining failed in call to 'always_inline' 'int32x4_t vdotq_s32(int32x4_t, int8x16_t, int8x16_t)': target specific option mismatch
+29527 | vdotq_s32 (int32x4_t __r, int8x16_t __a, int8x16_t __b)
+      | ^~~~~~~~~
+/home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-5lcVNs/src.cxx:2:65: note: called from here
+    2 | int main() { int8x16_t _a, _b; volatile int32x4_t _s = vdotq_s32(_s, _a, _b); return 0; }
+      |                                                        ~~~~~~~~~^~~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_999ea.dir/build.make:78: CMakeFiles/cmTC_999ea.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-5lcVNs'
+gmake: *** [Makefile:127: cmTC_999ea/fast] Error 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+#include <arm_neon.h>
+int main() { int8x16_t _a, _b; volatile int32x4_t _s = vdotq_s32(_s, _a, _b); return 0; }
+
+Performing C++ SOURCE FILE Test GGML_MACHINE_SUPPORTS_i8mm failed with the following compile output:
+Change Dir: /home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-me9Z9r
+
+Run Build Command(s):/bin/gmake -f Makefile cmTC_7f6ba/fast && /bin/gmake  -f CMakeFiles/cmTC_7f6ba.dir/build.make CMakeFiles/cmTC_7f6ba.dir/build
+gmake[1]: Entering directory '/home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-me9Z9r'
+Building CXX object CMakeFiles/cmTC_7f6ba.dir/src.cxx.o
+/bin/c++ -DGGML_MACHINE_SUPPORTS_i8mm  -mcpu=cortex-a72+crypto+i8mm -std=gnu++17 -o CMakeFiles/cmTC_7f6ba.dir/src.cxx.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-me9Z9r/src.cxx
+In file included from /home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-me9Z9r/src.cxx:1:
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h: In function 'int main()':
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:31774:1: error: inlining failed in call to 'always_inline' 'int32x4_t vmmlaq_s32(int32x4_t, int8x16_t, int8x16_t)': target specific option mismatch
+31774 | vmmlaq_s32 (int32x4_t __r, int8x16_t __a, int8x16_t __b)
+      | ^~~~~~~~~~
+/home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-me9Z9r/src.cxx:2:66: note: called from here
+    2 | int main() { int8x16_t _a, _b; volatile int32x4_t _s = vmmlaq_s32(_s, _a, _b); return 0; }
+      |                                                        ~~~~~~~~~~^~~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_7f6ba.dir/build.make:78: CMakeFiles/cmTC_7f6ba.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-me9Z9r'
+gmake: *** [Makefile:127: cmTC_7f6ba/fast] Error 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+#include <arm_neon.h>
+int main() { int8x16_t _a, _b; volatile int32x4_t _s = vmmlaq_s32(_s, _a, _b); return 0; }
+
+Performing C++ SOURCE FILE Test GGML_MACHINE_SUPPORTS_sve failed with the following compile output:
+Change Dir: /home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-Su81Wg
+
+Run Build Command(s):/bin/gmake -f Makefile cmTC_85265/fast && /bin/gmake  -f CMakeFiles/cmTC_85265.dir/build.make CMakeFiles/cmTC_85265.dir/build
+gmake[1]: Entering directory '/home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-Su81Wg'
+Building CXX object CMakeFiles/cmTC_85265.dir/src.cxx.o
+/bin/c++ -DGGML_MACHINE_SUPPORTS_sve  -mcpu=cortex-a72+crypto+sve -std=gnu++17 -o CMakeFiles/cmTC_85265.dir/src.cxx.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-Su81Wg/src.cxx
+Linking CXX executable cmTC_85265
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85265.dir/link.txt --verbose=1
+/bin/c++  -mcpu=cortex-a72+crypto+sve CMakeFiles/cmTC_85265.dir/src.cxx.o -o cmTC_85265 
+gmake[1]: Leaving directory '/home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-Su81Wg'
+
+
+...and run output:
+Illegal instruction
+Return value: FAILED_TO_RUN
+Source file was:
+#include <arm_sve.h>
+int main()  { svfloat32_t _a, _b; volatile svfloat32_t _c = svadd_f32_z(svptrue_b8(), _a, _b); return 0; }
+
+Performing C++ SOURCE FILE Test GGML_MACHINE_SUPPORTS_sme failed with the following compile output:
+Change Dir: /home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-KwbSAq
+
+Run Build Command(s):/bin/gmake -f Makefile cmTC_9ce4f/fast && /bin/gmake  -f CMakeFiles/cmTC_9ce4f.dir/build.make CMakeFiles/cmTC_9ce4f.dir/build
+gmake[1]: Entering directory '/home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-KwbSAq'
+Building CXX object CMakeFiles/cmTC_9ce4f.dir/src.cxx.o
+/bin/c++ -DGGML_MACHINE_SUPPORTS_sme  -mcpu=cortex-a72+crypto+sme -std=gnu++17 -o CMakeFiles/cmTC_9ce4f.dir/src.cxx.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-KwbSAq/src.cxx
+cc1plus: error: invalid feature modifier 'sme' in '-mcpu=cortex-a72+crypto+sme'
+cc1plus: note: valid arguments are: fp simd crypto crc lse fp16 rcpc rdma dotprod aes sha2 sha3 sm4 fp16fml sve profile rng memtag sb ssbs predres sve2 sve2-sm4 sve2-aes sve2-sha3 sve2-bitperm tme i8mm f32mm f64mm bf16 flagm pauth ls64 mops; did you mean 'sm4'?
+gmake[1]: *** [CMakeFiles/cmTC_9ce4f.dir/build.make:78: CMakeFiles/cmTC_9ce4f.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-KwbSAq'
+gmake: *** [Makefile:127: cmTC_9ce4f/fast] Error 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+#include <arm_sme.h>
+__arm_locally_streaming int main() { __asm__ volatile("smstart; smstop;"); return 0; }
+
+Performing C++ SOURCE FILE Test GGML_MACHINE_SUPPORTS_nosme failed with the following output:
+Change Dir: /home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-Y1Xbkt
+
+Run Build Command(s):/bin/gmake -f Makefile cmTC_2ae13/fast && /bin/gmake  -f CMakeFiles/cmTC_2ae13.dir/build.make CMakeFiles/cmTC_2ae13.dir/build
+gmake[1]: Entering directory '/home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-Y1Xbkt'
+Building CXX object CMakeFiles/cmTC_2ae13.dir/src.cxx.o
+/bin/c++ -DGGML_MACHINE_SUPPORTS_nosme  -mcpu=cortex-a72+crypto+nosme -std=gnu++17 -o CMakeFiles/cmTC_2ae13.dir/src.cxx.o -c /home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-Y1Xbkt/src.cxx
+cc1plus: error: invalid feature modifier 'sme' in '-mcpu=cortex-a72+crypto+nosme'
+cc1plus: note: valid arguments are: fp simd crypto crc lse fp16 rcpc rdma dotprod aes sha2 sha3 sm4 fp16fml sve profile rng memtag sb ssbs predres sve2 sve2-sm4 sve2-aes sve2-sha3 sve2-bitperm tme i8mm f32mm f64mm bf16 flagm pauth ls64 mops; did you mean 'sm4'?
+gmake[1]: *** [CMakeFiles/cmTC_2ae13.dir/build.make:78: CMakeFiles/cmTC_2ae13.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ando/proj-arm64/sample/llama.cpp_202510/CMakeFiles/CMakeScratch/TryCompile-Y1Xbkt'
+gmake: *** [Makefile:127: cmTC_2ae13/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+

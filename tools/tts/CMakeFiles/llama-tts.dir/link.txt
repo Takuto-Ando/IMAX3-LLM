@@ -1,0 +1,1 @@
+/bin/c++ -O3 -DNDEBUG "CMakeFiles/llama-tts.dir/tts.cpp.o" -o ../../bin/llama-tts  -Wl,-rpath,/home/ando/proj-arm64/sample/llama.cpp_202510/bin: ../../common/libcommon.a ../../bin/libllama.so ../../bin/libggml.so ../../bin/libggml-cpu.so ../../bin/libggml-base.so 
